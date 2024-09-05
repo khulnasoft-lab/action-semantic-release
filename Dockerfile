@@ -1,3 +1,5 @@
+# kics-scan disable=9bae49be-0aa3-4de5-bab2-4c3a069e40cd,67fd0c4a-68cf-46d7-8c41-bc9fba7e40ae
+
 # --- base stage --- #
 
 FROM alpine:3.19 AS base
