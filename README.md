@@ -4,12 +4,11 @@ semantic-release as a GitHub Action, with all presets included
 
 [![license][license-img]][license-url]
 [![release][release-img]][release-url]
-[![semantic][semantic-img]][semantic-url]
 
 [`semantic-release`][] as a GitHub Action, with **all** presets included.
 
--   works with environment variables as documented in [`semantic-release` docs][]
--   customizable through [`semantic-release` configuration file][]
+- works with environment variables as documented in [`semantic-release` docs][]
+- customizable through [`semantic-release` configuration file][]
 
 ## Usage
 
@@ -85,6 +84,3 @@ jobs:
 
 [release-url]: https://github.com/khulnasoft-lab/action-semantic-release/releases
 [release-img]: https://badgen.net/github/release/khulnasoft-lab/action-semantic-release
-
-[semantic-url]: https://github.com/khulnasoft-lab/action-semantic-release/actions?query=workflow%3Arelease
-[semantic-img]: https://badgen.net/badge/📦/semantically%20released/blue

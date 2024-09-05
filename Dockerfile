@@ -6,12 +6,12 @@ FROM alpine:3.19 AS base
 
 # hadolint ignore=DL3018
 RUN apk add --no-cache --update \
-  npm=9.6.6-r0 \
-  git=2.40.1-r0 \
-  openssh=9.3_p2-r0 \
-  ca-certificates=20230506-r0 \
-  ruby-bundler=2.4.15-r0 \
-  bash=5.2.15-r5
+  npm \
+  git \
+  openssh \
+  ca-certificates \
+  ruby-bundler \
+  bash
 
 WORKDIR /action
 
