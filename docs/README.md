@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: semantic-release
-        uses: khulnasoft-lab/action-semantic-release@master
+        uses: khulnasoft-lab/action-semantic-release@v2
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

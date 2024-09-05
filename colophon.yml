@@ -1,8 +1,8 @@
 version: 2.0
 
-id: action-composite-template
+id: action-semantic-release
 
 about:
-  title: Template GitHub Composite Actions
-  description: A template for GitHub Template GitHub Composite Actions
+  title: "GitHub Action: Semantic Release"
+  description: semantic-release as a GitHub Action, with all presets included
   repository: khulnasoft-lab/action-semantic-release
